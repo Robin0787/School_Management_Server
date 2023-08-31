@@ -3,8 +3,12 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
 require('dotenv').config();
+const classes = require('./data.json');
+
 
 app.use(cors());
+app.use(express.json());
+
 
 
 const users = [
@@ -41,17 +45,19 @@ async function run() {
 
     const database = client.db('School_Management');
     const userCollection = database.collection('users');
+    const subjectCollection = database.collection('subjects');
 
     app.get('/users', async (req, res) => {
         const result = await userCollection.insertMany(users);
         res.send(result);
-    })
+    });
 
-
-
-
-
-
+    app.get('/subjects/:class', async (req, res) => {
+      const classNum = req.params.class;
+      const query = {class: classNum};
+      const specificClass = await subjectCollection.findOne(query);
+      res.send(specificClass);
+    });
 
 
 
