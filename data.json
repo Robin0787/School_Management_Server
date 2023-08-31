@@ -3,80 +3,68 @@
     "class": "6",
     "subjects": [
       {
-        "name": "আনন্দ পাঠ",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
-      },
-      {
-        "name": "বাংলা ব্যাকরণ ও নির্মিতি",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
-      },
-      {
-        "name": "English For Today",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "English Grammer and Composition",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "গণিত",
-        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
-      },
-      {
-        "name": "বিজ্ঞান",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "গার্হস্থ্য বিজ্ঞান",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
-        "icon": ""
-      },
-      {
-        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
-        "icon": ""
-      },
-      {
-        "name": "চারুপাঠ",
-        "icon": ""
-      },
-      {
-        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
-        "icon": ""
-      },
-      {
-        "name": "চারু ও কারুকলা",
-        "icon": ""
-      },
-      {
-        "name": "ইসলাম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "ক্ষুদ্র ও নৃগোষ্ঠীর ভাষা ও সংস্কৃতি",
-        "icon": ""
-      },
-      {
-        "name": "কর্ম ও জীবনমুকী শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "কৃষি শিক্ষা",
-        "icon": ""
+        "common": [
+          {
+            "name": "বাংলা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/bangla-book-class-6-.png?ezimgfmt=rs:395x531/rscb1/ngcb1/notWebP"
+          },
+          {
+            "name": "English",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/English-Book-Class-6.jpg?ezimgfmt=rs:387x515/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "গণিত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Math-Book-Class-6.jpg?ezimgfmt=rs:386x514/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বিজ্ঞান অনুসন্ধানী পাঠ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Science-Book-Class-6.jpg?ezimgfmt=rs:383x512/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বিজ্ঞান অনুশীলন বই",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Science-Activity-Book-Class-6.jpg?ezimgfmt=rs:393x513/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইতিহাস ও সামাজিক বিজ্ঞান অনুসন্ধানী পাঠ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/History-and-Social-Science-Book-Class-6.jpg?ezimgfmt=rs:389x515/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইতিহাস ও সামাজিক বিজ্ঞান অনুশীলন বই",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/History-and-Social-Science-An-Inquiry-based-Reader-Book-class-6.jpg?ezimgfmt=rs:385x511/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ডিজিটাল প্রযুক্তি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Digital-Technology-Book-class-6.jpg?ezimgfmt=rs:379x513/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "স্বাস্থ্য সুরক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Wellbeing-Book-class-6-1.jpg?ezimgfmt=rs:391x512/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "জীবন ও জীবিকা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Life-and-Livelihood-Book.jpg?ezimgfmt=rs:382x516/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "শিল্প ও সংস্কৃতি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Art-and-Culture-Book.jpg?ezimgfmt=rs:379x504/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইসলাম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Islamic-Studies-Book-class-6.jpg?ezimgfmt=rs:383x512/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "হিন্দুধর্ম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Hindu-Religion-Studies-Book-class-6.jpg?ezimgfmt=rs:388x508/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বৌদ্ধধর্ম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Buddhist-Religion-Studies-Book-Class-6.jpg?ezimgfmt=rs:386x513/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "খ্রিষ্টধর্ম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Christian-Religion-Studies-Book-Class-6.jpg?ezimgfmt=rs:384x510/rscb1/ng:webp/ngcb1"
+          }
+        ]
       }
     ]
   },
@@ -84,76 +72,68 @@
     "class": "7",
     "subjects": [
       {
-        "name": "আনন্দ পাঠ",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
-      },
-      {
-        "name": "বাংলা ব্যাকরণ ও নির্মিতি",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
-      },
-      {
-        "name": "English For Today",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "English Grammer and Composition",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "গণিত",
-        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
-      },
-      {
-        "name": "বিজ্ঞান",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "গার্হস্থ্য বিজ্ঞান",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
-        "icon": ""
-      },
-      {
-        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
-        "icon": ""
-      },
-      {
-        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
-        "icon": ""
-      },
-      {
-        "name": "চারু ও কারুকলা",
-        "icon": ""
-      },
-      {
-        "name": "ইসলাম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "ক্ষুদ্র ও নৃগোষ্ঠীর ভাষা ও সংস্কৃতি",
-        "icon": ""
-      },
-      {
-        "name": "কর্ম ও জীবনমুকী শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "কৃষি শিক্ষা",
-        "icon": ""
+        "common": [
+          {
+            "name": "বাংলা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Bangla-Book-2023.jpg?ezimgfmt=rs:392x517/rscb1/ngcb1/notWebP"
+          },
+          {
+            "name": "English",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-English-Book-2023.jpg?ezimgfmt=rs:310x410/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "গণিত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Math-Book-2023.jpg?ezimgfmt=rs:309x406/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বিজ্ঞান অনুসন্ধানী পাঠ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Science-Investigative-Study-Book-2023.jpg?ezimgfmt=rs:384x495/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বিজ্ঞান অনুশীলন বই",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Science-Exercise-Book-Book-2023.jpg?ezimgfmt=rs:386x497/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইতিহাস ও সামাজিক বিজ্ঞান অনুসন্ধানী পাঠ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-History-and-Social-Science-Activity-Book-2023.jpg?ezimgfmt=rs:310x413/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইতিহাস ও সামাজিক বিজ্ঞান অনুশীলন বই",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-History-and-Social-Science-An-Inquiry-based-Reader-Book-2023.jpg?ezimgfmt=rs:389x514/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ডিজিটাল প্রযুক্তি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Digital-Technology-Book-2023.jpg?ezimgfmt=rs:390x511/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "স্বাস্থ্য সুরক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Wellbeing-Book-2023.jpg?ezimgfmt=rs:387x511/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "জীবন ও জীবিকা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Life-and-Livelihood-Book-2023.jpg?ezimgfmt=rs:386x513/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "শিল্প ও সংস্কৃতি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Art-and-Culture-Book-2023.jpg?ezimgfmt=rs:387x511/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইসলাম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Islamic-Studies-Book-2023.jpg?ezimgfmt=rs:391x514/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "হিন্দুধর্ম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Hindu-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:379x482/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বৌদ্ধধর্ম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Buddhist-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:388x512/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "খ্রিষ্টধর্ম শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-7-Christian-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:388x515/rscb1/ng:webp/ngcb1"
+          }
+        ]
       }
     ]
   },
@@ -161,76 +141,96 @@
     "class": "8",
     "subjects": [
       {
-        "name": "সাহিত্য কণিকা",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
-      },
-      {
-        "name": "আনন্দ পাঠ",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
-      },
-      {
-        "name": "বাংলা ব্যাকরণ ও নির্মিতি",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
-      },
-      {
-        "name": "English For Today",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "English Grammer and Composition",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "গণিত",
-        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
-      },
-      {
-        "name": "বিজ্ঞান",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "গার্হস্থ্য বিজ্ঞান",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
-        "icon": ""
-      },
-      {
-        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
-        "icon": ""
-      },
-      {
-        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
-        "icon": ""
-      },
-      {
-        "name": "চারু ও কারুকলা",
-        "icon": ""
-      },
-      {
-        "name": "ইসলাম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "কর্ম ও জীবনমুকী শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "কৃষি শিক্ষা",
-        "icon": ""
+        "common": [
+          {
+            "name": "আনন্দ পাঠ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Anandapatha-Book-2023.jpg?ezimgfmt=rs:385x489/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "সাহিত্য কণিকা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Sahitya-Kanika-Book-2023.jpg?ezimgfmt=rs:387x495/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বাংলা ব্যাকরণ ও নির্মিতি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Bangla-Grammar-and-construction-2023.jpg?ezimgfmt=rs:384x495/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "English For Today",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-English-for-Today-2023.jpg?ezimgfmt=rs:387x494/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "English Grammer and Composition",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-English-Grammer-and-Composition-Book-2023.jpg?ezimgfmt=rs:381x495/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "গণিত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Math-Book-2023.jpg?ezimgfmt=rs:348x449/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বিজ্ঞান",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Science-Book-2023-1.jpg?ezimgfmt=rs:383x493/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "গার্হস্থ্য বিজ্ঞান",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Home-Science-Book-2023.jpg?ezimgfmt=rs:384x500/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Bangladesh-and-World-Identity-Book-2023.jpg?ezimgfmt=rs:385x493/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Digital-Technology-Book-2023.jpg?ezimgfmt=rs:388x495/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Physical-Education-and-Health-Book-2023.jpg?ezimgfmt=rs:383x497/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "চারু ও কারুকলা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Arts-and-Crafts-Book-2023.jpg?ezimgfmt=rs:366x480/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "কৃষি শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Agriculture-Book-2023.jpg?ezimgfmt=rs:385x491/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "কর্ম ও জীবনমুখী শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Work-and-Life-Oriented-Education-Book-2023.jpg?ezimgfmt=rs:387x502/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইসলাম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Islamic-Studies-Book-2023.jpg?ezimgfmt=rs:389x499/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Hindu-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:383x489/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Buddhist-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:383x495/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Christian-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:386x493/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "সহজ আরবি পাঠ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Arbi-Book-2023.jpg?ezimgfmt=rs:386x475/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "সংস্কৃত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Sanskrit-Book-2023.jpg?ezimgfmt=rs:390x483/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "পালি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Pali-Book-2023.jpg?ezimgfmt=rs:386x481/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "সংগীত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-8-Songit-Book-2023.jpg?ezimgfmt=rs:387x492/rscb1/ng:webp/ngcb1"
+          }
+        ]
       }
     ]
   },
@@ -238,76 +238,152 @@
     "class": "9",
     "subjects": [
       {
-        "name": "বাংলা সাহিত্য",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+        "common": [
+          {
+            "name": "বাংলা সাহিত্য",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Bangla-Sahitto-Book-2023-1.png?ezimgfmt=rs:307x391/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বাংলা সহপাঠ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Bangla-Sahapath-Book-2023.jpg?ezimgfmt=rs:390x512/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বাংলা ভাষার ব্যাকরণ ও নির্মিতি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Bangla-Bashar-Bakaron-Book-2023.jpg?ezimgfmt=rs:386x502/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "English For Today",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-English-for-Toady-Book-2023.jpg?ezimgfmt=rs:380x493/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "English Grammer and Composition",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-English-Grammer-and-Composition-2023.jpg?ezimgfmt=rs:384x492/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "গণিত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Math-Book-2023.jpg?ezimgfmt=rs:390x513/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Digital-Technology-Book-2023.jpg?ezimgfmt=rs:368x476/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ক্যারিয়ার শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Carrer-Book-2023-1.jpg?ezimgfmt=rs:387x496/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "চারু ও কারুকলা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Arts-and-Crafts-Book-2023.jpg?ezimgfmt=rs:380x519/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "শারীরিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Physical-Education-Health-Science-and-Sports-Book-2023.jpg?ezimgfmt=rs:388x501/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "আরবি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Socitro-Arbi-Path-Book-2023.jpg?ezimgfmt=rs:386x480/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "সংস্কৃত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Songskrito-Book2023.jpg?ezimgfmt=rs:384x481/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "পালি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Pali-Book-2023.jpg?ezimgfmt=rs:382x479/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "সংগীত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Songskrito-Book-2023-1.jpg?ezimgfmt=rs:375x480/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইসলাম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Islamic-Studies-Book-2023.jpg?ezimgfmt=rs:383x494/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Hindu-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:388x509/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Christian-Religion-Studies-Book-2023-1.jpg?ezimgfmt=rs:388x497/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Buddhist-Religion-Studies-Book-2023.jpg?ezimgfmt=rs:387x496/rscb1/ng:webp/ngcb1"
+          }
+        ]
       },
       {
-        "name": "বাংলা সহপাঠ",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+        "science": [
+          {
+            "name": "পদার্থবিজ্ঞান",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Physics-Book-2023.jpg?ezimgfmt=rs:381x508/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "রসায়ন",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Chemistry-Book-2023.jpg?ezimgfmt=rs:376x498/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "উচ্চতর গণিত",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Higher-Mathe-Book-2023.jpg?ezimgfmt=rs:388x509/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "জীববিজ্ঞান",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Biology-Book-2023.jpg?ezimgfmt=rs:383x503/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Bangladesh-and-World-Identity-Book-2023.jpg?ezimgfmt=rs:388x498/rscb1/ng:webp/ngcb1"
+          }
+        ]
       },
       {
-        "name": "বাংলা ভাষার ব্যাকরণ",
-        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+        "arts": [
+          {
+            "name": "বিজ্ঞান",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Science-Book-2023.jpg?ezimgfmt=rs:395x507/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ভূগোল ও পরিবেশ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Geography-Book-2023.jpg?ezimgfmt=rs:383x497/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "কৃষিশিক্ষা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Agriculture-Book-2023.jpg?ezimgfmt=rs:385x498/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "পৌরনীতি ও নাগরিকতা",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Civics-Book-2023.jpg?ezimgfmt=rs:384x495/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ইতিহাস",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-History-and-World-Civilization-of-Bangladesh-Book-2023.jpg?ezimgfmt=rs:380x501/rscb1/ng:webp/ngcb1"
+          }
+        ]
       },
       {
-        "name": "English For Today",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "English Grammer and Composition",
-        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
-      },
-      {
-        "name": "গণিত",
-        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
-      },
-      {
-        "name": "বিজ্ঞান",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "রচনা সম্ভার",
-        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
-      },
-      {
-        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
-        "icon": ""
-      },
-      {
-        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
-        "icon": ""
-      },
-      {
-        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
-        "icon": ""
-      },
-      {
-        "name": "চারু ও কারুকলা",
-        "icon": ""
-      },
-      {
-        "name": "ইসলাম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "কর্ম ও জীবনমুকী শিক্ষা",
-        "icon": ""
-      },
-      {
-        "name": "কৃষি শিক্ষা",
-        "icon": ""
+        "commerce": [
+          {
+            "name": "বিজ্ঞান",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Science-Book-2023.jpg?ezimgfmt=rs:395x507/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "অর্থনীতি",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Economics-Book-2023.jpg?ezimgfmt=rs:385x498/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "হিসাব বিজ্ঞান",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Accounting-Book-2023.jpg?ezimgfmt=rs:382x494/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ব্যবসায় উদ্যোগ",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Finance-Banking-Book-2023-2.jpg?ezimgfmt=rs:387x499/rscb1/ng:webp/ngcb1"
+          },
+          {
+            "name": "ফিন্যান্স ও ব্যাংকিং",
+            "image": "https://careerlend.com/wp-content/uploads/2023/01/Class-9-10-Finance-Book-2023-1.jpg?ezimgfmt=rs:383x491/rscb1/ng:webp/ngcb1"
+          }
+        ]
       }
     ]
   }
