@@ -1,0 +1,314 @@
+[
+  {
+    "class": "6",
+    "subjects": [
+      {
+        "name": "আনন্দ পাঠ",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "বাংলা ব্যাকরণ ও নির্মিতি",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "English For Today",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "English Grammer and Composition",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "গণিত",
+        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
+      },
+      {
+        "name": "বিজ্ঞান",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "গার্হস্থ্য বিজ্ঞান",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+        "icon": ""
+      },
+      {
+        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+        "icon": ""
+      },
+      {
+        "name": "চারুপাঠ",
+        "icon": ""
+      },
+      {
+        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
+        "icon": ""
+      },
+      {
+        "name": "চারু ও কারুকলা",
+        "icon": ""
+      },
+      {
+        "name": "ইসলাম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "ক্ষুদ্র ও নৃগোষ্ঠীর ভাষা ও সংস্কৃতি",
+        "icon": ""
+      },
+      {
+        "name": "কর্ম ও জীবনমুকী শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "কৃষি শিক্ষা",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "class": "7",
+    "subjects": [
+      {
+        "name": "আনন্দ পাঠ",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "বাংলা ব্যাকরণ ও নির্মিতি",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "English For Today",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "English Grammer and Composition",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "গণিত",
+        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
+      },
+      {
+        "name": "বিজ্ঞান",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "গার্হস্থ্য বিজ্ঞান",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+        "icon": ""
+      },
+      {
+        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+        "icon": ""
+      },
+      {
+        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
+        "icon": ""
+      },
+      {
+        "name": "চারু ও কারুকলা",
+        "icon": ""
+      },
+      {
+        "name": "ইসলাম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "ক্ষুদ্র ও নৃগোষ্ঠীর ভাষা ও সংস্কৃতি",
+        "icon": ""
+      },
+      {
+        "name": "কর্ম ও জীবনমুকী শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "কৃষি শিক্ষা",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "class": "8",
+    "subjects": [
+      {
+        "name": "সাহিত্য কণিকা",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "আনন্দ পাঠ",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "বাংলা ব্যাকরণ ও নির্মিতি",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "English For Today",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "English Grammer and Composition",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "গণিত",
+        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
+      },
+      {
+        "name": "বিজ্ঞান",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "গার্হস্থ্য বিজ্ঞান",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+        "icon": ""
+      },
+      {
+        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+        "icon": ""
+      },
+      {
+        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
+        "icon": ""
+      },
+      {
+        "name": "চারু ও কারুকলা",
+        "icon": ""
+      },
+      {
+        "name": "ইসলাম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "কর্ম ও জীবনমুকী শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "কৃষি শিক্ষা",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "class": "9",
+    "subjects": [
+      {
+        "name": "বাংলা সাহিত্য",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "বাংলা সহপাঠ",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "বাংলা ভাষার ব্যাকরণ",
+        "icon": "https://i.ibb.co/nbnTBwB/bangla.webp"
+      },
+      {
+        "name": "English For Today",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "English Grammer and Composition",
+        "icon": "https://i.ibb.co/pQXtjxz/English.webp"
+      },
+      {
+        "name": "গণিত",
+        "icon": "https://i.ibb.co/fXLDd7P/Mathe.webp"
+      },
+      {
+        "name": "বিজ্ঞান",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "রচনা সম্ভার",
+        "icon": "https://i.ibb.co/hy3Y64x/physics.webp"
+      },
+      {
+        "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+        "icon": ""
+      },
+      {
+        "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+        "icon": ""
+      },
+      {
+        "name": "শারীরিক শিক্ষা ও স্বাস্থ্য",
+        "icon": ""
+      },
+      {
+        "name": "চারু ও কারুকলা",
+        "icon": ""
+      },
+      {
+        "name": "ইসলাম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "হিন্দুধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "বৌদ্ধধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "খ্রিষ্টধর্ম ও নৈতিক শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "কর্ম ও জীবনমুকী শিক্ষা",
+        "icon": ""
+      },
+      {
+        "name": "কৃষি শিক্ষা",
+        "icon": ""
+      }
+    ]
+  }
+]
