@@ -3,7 +3,6 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
 require('dotenv').config();
-const classes = require('./data.json');
 
 
 app.use(cors());
@@ -44,13 +43,10 @@ async function run() {
     await client.connect();
 
     const database = client.db('School_Management');
-    const userCollection = database.collection('users');
     const subjectCollection = database.collection('subjects');
+    const instructorRequests = database.collection('instructor-requests');
+    const studentRequests = database.collection('student-requests');
 
-    app.get('/users', async (req, res) => {
-        const result = await userCollection.insertMany(users);
-        res.send(result);
-    });
 
     app.get('/subjects/:class', async (req, res) => {
       const classNum = req.params.class;
@@ -59,7 +55,17 @@ async function run() {
       res.send(specificClass);
     });
 
+    app.post('/store-instructor-request', async (req, res) => {
+      const data = req.body;
+      const result = await instructorRequests.insertOne(data);
+      res.send(result);
+    });
 
+    app.post('/store-student-request', async (req, res) => {
+      const data = req.body;
+      const result = await studentRequests.insertOne(data);
+      res.send(result);
+    });
 
 
     // Send a ping to confirm a successful connection
