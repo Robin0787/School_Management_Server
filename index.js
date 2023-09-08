@@ -46,7 +46,10 @@ async function run() {
     const subjectCollection = database.collection('subjects');
     const instructorRequests = database.collection('instructor-requests');
     const studentRequests = database.collection('student-requests');
+    const approvedUserCollection = database.collection('Approved_Users');
 
+
+    // ----------- GET ----------- GET ----------- GET ----------- GET ----------- //
 
     app.get('/subjects/:class', async (req, res) => {
       const classNum = req.params.class;
@@ -55,6 +58,16 @@ async function run() {
       res.send(specificClass);
     });
 
+    app.get('/get-approved-user/:email', async (req, res) => {
+      const email = req.params.email;
+      const query = {email : email};
+      const result = await approvedUserCollection.findOne(query);
+      res.send(result);
+    });
+
+    
+
+    // ----------- POST ----------- POST ----------- POST ----------- POST ----------- //
     app.post('/store-instructor-request', async (req, res) => {
       const data = req.body;
       const result = await instructorRequests.insertOne(data);
@@ -67,6 +80,11 @@ async function run() {
       res.send(result);
     });
 
+    // ----------- PUT ----------- PUT ----------- PUT ----------- PUT ----------- //
+
+    // ----------- PATCH ----------- PATCH ----------- PATCH ----------- PATCH ----------- //
+
+    // ----------- DELETE ----------- DELETE ----------- DELETE ----------- DELETE ----------- //
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
