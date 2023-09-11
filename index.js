@@ -44,6 +44,7 @@ async function run() {
     const instructorRequests = database.collection("instructor-requests");
     const studentsRequest = database.collection("student-requests");
     const ApprovedStudents = database.collection("approved-students");
+    const RejectedStudents = database.collection("rejected-students");
     const approvedUserCollection = database.collection("Approved_Users");
 
     // ----------- GET ----------- GET ----------- GET ----------- GET ----------- //
@@ -136,10 +137,14 @@ async function run() {
     // ----------- PATCH ----------- PATCH ----------- PATCH ----------- PATCH ----------- //
 
     // ----------- DELETE ----------- DELETE ----------- DELETE ----------- DELETE ----------- //
+    
     // Rejecting Student Request
     app.delete('/reject-student-request/:id', async (req, res) => {
       const id = req.params.id;
       const query = {_id: new ObjectId(id)};
+      const update = await studentsRequest.updateOne(query, {$set: {status: 'rejected'}});
+      const student = await studentsRequest.findOne(query);
+      const storeStudent = await RejectedStudents.insertOne(student);
       const result = await studentsRequest.deleteOne(query);
       res.send(result);
     })
