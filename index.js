@@ -80,6 +80,7 @@ async function run() {
       });
       res.send(groupedData);
     });
+    
     // Getting all students request
     app.get("/students-request", async (req, res) => {
       const result = await studentsRequest
@@ -128,11 +129,20 @@ async function run() {
     });
 
 
+
+
     // ----------- PUT ----------- PUT ----------- PUT ----------- PUT ----------- //
 
     // ----------- PATCH ----------- PATCH ----------- PATCH ----------- PATCH ----------- //
 
     // ----------- DELETE ----------- DELETE ----------- DELETE ----------- DELETE ----------- //
+    // Rejecting Student Request
+    app.delete('/reject-student-request/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = {_id: new ObjectId(id)};
+      const result = await studentsRequest.deleteOne(query);
+      res.send(result);
+    })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
