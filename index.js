@@ -102,6 +102,12 @@ async function run() {
       res.send(groupedData);
     });
 
+    // Getting all instructors request
+    app.get('/instructors-request', async (req, res) => {
+      const requests = await instructorRequests.find().toArray();
+      res.send(requests);
+    })
+
     // ----------- POST ----------- POST ----------- POST ----------- POST ----------- //
     // Storing Instructors Sign Up request
     app.post("/store-instructor-request", async (req, res) => {
