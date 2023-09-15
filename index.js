@@ -7,9 +7,6 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-
-
-
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.nxzja4k.mongodb.net/?retryWrites=true&w=majority`;
 
@@ -32,6 +29,9 @@ async function run() {
     const currentStudentsCollection = database.collection("current-students");
     const subjectCollection = database.collection("subjects");
     const instructorRequests = database.collection("instructor-requests");
+    const approvedInstructors = database.collection("approved-instructors");
+    const rejectedInstructors = database.collection("rejected-instructors");
+
     const studentsRequest = database.collection("student-requests");
     const ApprovedStudents = database.collection("approved-students");
     const RejectedStudents = database.collection("rejected-students");
@@ -138,11 +138,16 @@ async function run() {
       try {
         await Promise.all(promises);
         res.send(collectionStats);
-      } 
-      catch (error) {
+      } catch (error) {
         console.error("Error counting documents:", error);
         res.status(500).send("Internal Server Error");
       }
+    });
+
+    // Getting all approved instructors
+    app.get("/approved-instructors", async (req, res) => {
+      const result = await approvedInstructors.find().toArray();
+      res.send(result);
     });
 
     // ----------- POST ----------- POST ----------- POST ----------- POST ----------- //
@@ -181,6 +186,20 @@ async function run() {
       res.send(result);
     });
 
+    // Store Approved Instructor
+    app.post("/store-approved-instructor", async (req, res) => {
+      const { instructorID } = req.body;
+      const query = { _id: new ObjectId(instructorID) };
+      const result = await instructorRequests.updateOne(query, {
+        $set: { status: "approved" },
+      });
+      const instructor = await instructorRequests.findOne(query);
+      const result1 = await approvedUserCollection.insertOne(instructor);
+      const result2 = await approvedInstructors.insertOne(instructor);
+      const result3 = await instructorRequests.deleteOne(query);
+      res.send(result2);
+    });
+
     // ----------- PUT ----------- PUT ----------- PUT ----------- PUT ----------- //
 
     // ----------- PATCH ----------- PATCH ----------- PATCH ----------- PATCH ----------- //
@@ -198,6 +217,19 @@ async function run() {
       const storeStudent = await RejectedStudents.insertOne(student);
       const result = await studentsRequest.deleteOne(query);
       res.send(result);
+    });
+
+    // Deleting instructor Request
+    app.delete("/delete-instructor-request/:id", async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await instructorRequests.updateOne(query, {
+        $set: { status: "rejected" },
+      });
+      const instructor = await instructorRequests.findOne(query);
+      const result1 = await rejectedInstructors.insertOne(instructor);
+      const result2 = await instructorRequests.deleteOne(query);
+      res.send(result2);
     });
 
     // Send a ping to confirm a successful connection
