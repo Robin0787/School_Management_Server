@@ -149,6 +149,11 @@ async function run() {
       const result = await approvedInstructors.find().toArray();
       res.send(result);
     });
+     // Getting all rejected instructors
+     app.get("/rejected-instructors", async (req, res) => {
+      const result = await rejectedInstructors.find().toArray();
+      res.send(result);
+    });
 
     // ----------- POST ----------- POST ----------- POST ----------- POST ----------- //
     // Storing Instructors Sign Up request
