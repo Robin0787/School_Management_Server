@@ -37,6 +37,15 @@ async function run() {
     const RejectedStudents = database.collection("rejected-students");
 
     // ----------- GET ----------- GET ----------- GET ----------- GET ----------- //
+    // Getting user based on email
+    app.get('/user/:email', async(req, res) => {
+      const email = req.params.email;
+      const query = {email: email};
+      const result = await approvedUserCollection.findOne(query);
+      res.send(result);
+    })
+
+    
     // Getting all subject according to className
     app.get("/subjects/:class", async (req, res) => {
       const classNum = req.params.class;
