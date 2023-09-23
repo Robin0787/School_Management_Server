@@ -37,6 +37,7 @@ async function run() {
     const RejectedStudents = database.collection("rejected-students");
 
     // ----------- GET ----------- GET ----------- GET ----------- GET ----------- //
+    
     // Getting user based on email
     app.get('/user/:email', async(req, res) => {
       const email = req.params.email;
@@ -45,6 +46,26 @@ async function run() {
       res.send(result);
     })
 
+    // Getting all current Students
+    app.get('/get-all-current-students', async(req, res) => {
+      const result = await currentStudentsCollection.aggregate([
+        {
+          $sort: { roll: 1 },
+        },
+        {
+          $group: {
+            _id: { $toLower: "$class" },
+            students: { $push: "$$ROOT" },
+          },
+        },
+      ]).toArray();
+
+      const groupedData = {};
+      result.forEach((item) => {
+        groupedData[item._id] = item.students;
+      });
+      res.send(groupedData);
+    })
     
     // Getting all subject according to className
     app.get("/subjects/:class", async (req, res) => {
