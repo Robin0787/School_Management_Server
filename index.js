@@ -22,12 +22,13 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    // await client.connect();
 
     const database = client.db("School_Management");
     const approvedUserCollection = database.collection("Approved_Users");
     const currentStudentsCollection = database.collection("current-students");
     const subjectCollection = database.collection("subjects");
+
     const instructorRequests = database.collection("instructor-requests");
     const approvedInstructors = database.collection("approved-instructors");
     const rejectedInstructors = database.collection("rejected-instructors");
@@ -174,6 +175,26 @@ async function run() {
       }
     });
 
+    // Getting Admin Stats 
+    app.get('/get-admin-stats', async(req, res) => {
+      const collectionNames = ["instructor-requests", "approved-instructors", "rejected-instructors"];
+      const collectionStats = {};
+
+      const promises = collectionNames.map(async (collectionName) => {
+        const collection = database.collection(collectionName);
+        const count = await collection.countDocuments();
+        collectionStats[collectionName] = count;
+      });
+      
+      try {
+        await Promise.all(promises);
+        res.send(collectionStats);
+      } catch (error) {
+        console.error("Error counting documents:", error);
+        res.status(500).send("Internal Server Error");
+      }
+    })
+
     // Getting all approved instructors
     app.get("/approved-instructors", async (req, res) => {
       const result = await approvedInstructors.find().toArray();
@@ -182,6 +203,12 @@ async function run() {
      // Getting all rejected instructors
      app.get("/rejected-instructors", async (req, res) => {
       const result = await rejectedInstructors.find().toArray();
+      res.send(result);
+    });
+
+     // Getting all rejected Students
+     app.get("/rejected-students", async (req, res) => {
+      const result = await RejectedStudents.find().toArray();
       res.send(result);
     });
 
@@ -266,6 +293,23 @@ async function run() {
       const result2 = await instructorRequests.deleteOne(query);
       res.send(result2);
     });
+
+    // Deleting Rejected Student from database for forever
+    app.delete('/delete-rejected-student/:id', async(req, res) => {
+      const id = req.params.id;
+      const query = {_id: new ObjectId(id)};
+      const result = await RejectedStudents.deleteOne(query);
+      res.send(result);
+    })
+
+    // Deleting Approved Student from database for forever
+    app.delete('/delete-approved-student/:email', async(req, res) => {
+      const email = req.params.email;
+      const query = {email : email};
+      const result1 = await approvedUserCollection.deleteOne(query);
+      const result = await ApprovedStudents.deleteOne(query);
+      res.send(result);
+    })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
