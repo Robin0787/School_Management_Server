@@ -311,6 +311,14 @@ async function run() {
       res.send(result);
     })
 
+    // Deleting current Students for forever
+    app.delete('/delete-current-student/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = {_id: new ObjectId(id)};
+      const result = await currentStudentsCollection.deleteOne(query);
+      res.send(result);
+    })
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Successfully connected to MongoDB!");
