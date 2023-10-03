@@ -266,6 +266,18 @@ async function run() {
 
     // ----------- PATCH ----------- PATCH ----------- PATCH ----------- PATCH ----------- //
 
+    // Updating current student info
+    app.patch('/update-current-student/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = {_id: new ObjectId(id)};
+      const data = req.body;
+      const updateDoc = {
+        $set: { ...data }
+      };
+      const result = await currentStudentsCollection.updateMany(query, updateDoc);
+      res.send(result);
+    })
+
     // ----------- DELETE ----------- DELETE ----------- DELETE ----------- DELETE ----------- //
 
     // Rejecting Student Request
